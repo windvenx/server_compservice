@@ -1,0 +1,45 @@
+.guarantee__stages{
+    padding: 50px 0 0 0 ;
+    display: flex;
+    justify-content: space-between;
+    .guarantee__stage{
+        width: 23%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        .stage__title{
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 27px rgba(10, 54, 88, 0.1);
+            border-radius: 46px;
+            background-color: #fff;
+            padding: 18px 34px;
+            font-family: RFRufo-Semibold;
+            font-size: 70px;
+            line-height: 0.8;
+            color: #ff9000;
+            span{
+                font-size: 27px;
+                color: #cdd0d4;
+                text-transform: uppercase;
+                transform: rotate(-90deg);
+                position: relative;
+                left: -25px;
+            }
+            p{
+                font-family: RFRufo-Semibold;
+                font-size: 18px;
+                font-weight: 400;
+                text-transform: uppercase;
+                position: relative;
+                left: -55px;
+            }
+        }
+        p{
+            padding: 0 20px;
+            font-size: 15px;
+            line-height: 20px;
+            color: #606060;
+        }
+    }
+}

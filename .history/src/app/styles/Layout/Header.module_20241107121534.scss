@@ -1,0 +1,102 @@
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    &__top{
+        background: #0684bd;
+        display: flex;
+        color: white;
+        
+        .header__ul{
+            display: flex;
+            column-gap: 16px;
+            font-size: 18px;
+            padding: 8px 0;
+        }
+
+        .soc__nav{
+            display: flex;
+            align-items: center;
+            column-gap: 5px;
+        }
+        .phone{
+            font-size: 24px;
+        }
+    }
+    &__middle{
+        padding: 18px 0;
+        display: flex;
+          .searchInput {
+            padding-left: 40px; /* Отступ для иконки */
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 450px;
+            background-color: #f4f6f8;
+            position: relative;
+          }
+        
+          .searchInput::before {
+            content: "";
+            position: absolute;
+            left: 10px; /* Расположение иконки */
+            top: 50%;
+            transform: translateY(-50%);
+            width: 200px;
+            height: 210px;
+            background-image: url('../../../../public/search.png'); /* Путь к вашему логотипу */
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+          .basket{
+            padding: 10px ;
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+        }
+    }
+    &__bottom{
+        .header__ul{
+            display: flex;
+            column-gap: 16px;
+            font-size: 18px;
+            padding: 8px 0;
+            li{
+                font-size: 14px;
+                position: relative;
+                color: #000;
+                text-transform: uppercase;
+                padding-right: 20px;
+                z-index: 100;
+            }
+            li::before{
+                content: "";
+            position: absolute;
+            left: 90%; /* Расположение иконки */
+            top: 50%;
+            transform: translateY(-50%);
+            width: 11.31px;
+            height: 11.31px;
+            background-image: url('../../public/search.png'); /* Путь к вашему логотипу */
+            background-size: contain;
+            background-repeat: no-repeat;
+            }
+        }
+        .header__bottom__text{
+            font-size: 14px;
+            color: #bac0ca;
+            text-transform: uppercase;
+            padding-right: 22px;
+            cursor: pointer;
+            display: flex;
+            column-gap: 5px;
+            span{
+                color: #ff9000;
+            }
+        }
+    }
+}

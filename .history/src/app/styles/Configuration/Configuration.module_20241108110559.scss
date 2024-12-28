@@ -1,0 +1,90 @@
+.configutator_block{
+    background-color: white;
+    padding: 22px 30px 15px 30px;
+    display: flex;
+    column-gap: 20px;
+    border-radius: 10px;
+    .proc_block__right{
+      width: 100%;
+      display: flex;
+      .
+      .proc_block__right__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+    }
+    .configutator_block__right{
+        width: 100%;
+      }
+    h4{
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    .brand{
+        display: flex;
+        column-gap: 20px;
+        .brand__inp{
+            display: flex; 
+            flex-direction: column; 
+            row-gap: 10px;
+            align-items: center;
+        }
+    }
+    
+}
+
+.product__text{
+    padding: 20px 10px;
+    &__top{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h3{
+        color: #0684bd;
+        font-size: 26px;
+        text-transform: uppercase;
+      }
+      span{
+        font-size: 20px;
+        color: #bac0ca;
+      }
+    }
+    &__bottom{
+      display: flex;
+      align-items: center;
+      p{
+        color: #606060; 
+      }
+      span{
+        color: #bac0ca;
+      }
+    }
+  }
+
+
+.sidebar{
+  padding: 15px 0 90px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  .find__server{
+    padding: 15px 0;
+  }
+  .sidebar__products{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 40px;
+    
+  }
+  
+}
+
+.sidebar__products{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 40px;
+  
+}

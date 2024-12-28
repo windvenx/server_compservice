@@ -1,0 +1,26 @@
+.configutator_block{
+    background-color: white;
+    padding: 22px 30px 15px 30px;
+    display: flex;
+    column-gap: 20px;
+    border-radius: 10px;
+    .configutator_block__right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        .configutator_block__right__top{
+            display: flex;
+            column-gap: ;
+            select{
+                border: none;
+                height: 40px;
+                padding: 10px;
+            }
+        }
+      }
+    h4{
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+}

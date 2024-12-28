@@ -1,0 +1,35 @@
+.aside{
+    width: 230px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    .sb__filter__sec{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        .check__label{
+            width: 100%;
+            background: #e7eaee;
+            display: flex;
+            column-gap: 5px;
+            height: 30px;
+            align-items: center;
+            padding: 6px 6px;
+            border-radius: 3px;
+        }
+    }
+    button{
+        background-color: #0684bd;
+        color: white;
+        border: none;
+        font-size: 22px;
+        border-radius: 3px;
+    }
+}
+
+
+

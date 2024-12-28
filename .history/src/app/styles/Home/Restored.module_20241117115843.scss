@@ -1,0 +1,26 @@
+.restored{
+    padding: 60px 0;
+    .restored__bottom{
+        display: flex;
+        align-items: center;
+    }
+    .restored__top{
+        display: flex;
+        align-items: center;
+        .restored__text{
+            h3{
+                margin-bottom: 16px;
+                font-size: 32px;
+                span{
+                    color: #ff9000;
+                }
+            }
+            p{
+                font-size: 17px;
+                line-height: 1.43;
+                color: #606060;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

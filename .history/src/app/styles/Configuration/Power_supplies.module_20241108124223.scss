@@ -1,0 +1,17 @@
+.configutator_block{
+    background-color: white;
+    padding: 22px 30px 15px 30px;
+    display: flex;
+    column-gap: 20px;
+    border-radius: 10px;
+    .radio__list{
+        display: flex;
+        column-gap: ;
+        width: 100%;
+        .radio{
+            display: flex;
+            height: 20px;
+            column-gap: 5px;
+        }
+    }
+}

@@ -1,0 +1,155 @@
+.configutator_block{
+    background-color: white;
+    padding: 22px 30px 15px 30px;
+    display: flex;
+    column-gap: 20px;
+    border-radius: 10px;
+    .configutator_block__right{
+        width: 100%;
+    }
+    h4{
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    .brand{
+        display: flex;
+        column-gap: 20px;
+        .brand__inp{
+            display: flex; 
+            flex-direction: column; 
+            row-gap: 10px;
+            align-items: center;
+        }
+    }
+    
+}
+
+.product__text{
+    padding: 20px 10px;
+    &__top{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h3{
+        color: #0684bd;
+        font-size: 26px;
+        text-transform: uppercase;
+      }
+      span{
+        font-size: 20px;
+        color: #bac0ca;
+      }
+    }
+    &__bottom{
+      display: flex;
+      align-items: center;
+      p{
+        color: #606060; 
+      }
+      span{
+        color: #bac0ca;
+      }
+    }
+  }
+
+
+.sidebar{
+  padding: 15px 0 90px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  .find__server{
+    padding: 15px 0;
+  }
+  .sidebar__products{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 40px;
+    
+  }
+  
+}
+
+.sidebar__products{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 40px;
+  
+}
+
+
+
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: $select-color;
+  width: $select-width;
+  height: $select-height;
+}
+.select-styled {
+  position: absolute; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $select-background;
+  padding: 8px 15px;
+  @include transition(all 0.2s ease-in);
+  &:after {
+    content:"";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: $select-color transparent transparent transparent;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+  }
+  &:hover {
+    background-color: darken($select-background, 2);
+  }
+  &:active, &.active {
+    background-color: darken($select-background, 5);
+    &:after {
+      top: 9px;
+      border-color: transparent transparent $select-color transparent;
+    }
+  }
+}
+
+.select-options {
+  display: none; 
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: darken($select-background, 5);
+  li {
+    margin: 0;
+    padding: 12px 0;
+    text-indent: 15px;
+    border-top: 1px solid darken($select-background, 10);
+    @include transition(all 0.15s ease-in);
+    &:hover, 
+    &.is-selected {
+      color: $select-background;
+      background: $select-color;
+    }
+    &[rel="hide"] {
+      display: none;
+    }
+  }
+}

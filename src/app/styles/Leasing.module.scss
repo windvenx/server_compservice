@@ -1,0 +1,109 @@
+.leasing {
+  padding: 40px 0;
+  h1 {
+    font-family: RFRufo-Semibold;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    span {
+      color: #ff9000;
+    }
+  }
+  .leasing__block {
+    display: flex;
+    .raidcalc {
+      width: 50%;
+      height: 577px;
+      background-color: white;
+      padding: 30px 35px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 40px;
+      .lc__term{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+      }
+      span {
+        font-family: Arimo-Bold;
+        font-size: 14px;
+        line-height: 1;
+        color: #bac0ca;
+      }
+      p{
+        font-family: Arimo-Bold;
+        font-size: 16px;
+        line-height: 1;
+        font-weight: 500;
+        color: #bac0ca;
+        text-transform: uppercase;
+      }
+      .raidLevels {
+        display: flex;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .raidButton {
+        background-color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        width: 80px;
+        text-align: center;
+      }
+
+      .DiskCapasity .raidButton {
+        width: auto; 
+      }
+
+      .raidButton:hover {
+        color: #0684bd;
+      }
+
+      .active {
+        background-color: #0684bd;
+        color: white;
+        font-weight: bold;
+      }
+
+      .active:hover {
+        color: #fff;
+      }
+      .diskSize{
+        width: 100%;
+        margin-top: 20px;
+        height: 50px;
+        border: 1px solid #c0c0c0;
+        border-bottom: none;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        p{
+            color: #000;
+            margin-left: 15px;
+        }
+        input{
+            width: 100%;
+            transition: 1s;
+            position: relative;
+            bottom: -5px;
+        }
+      }
+      .diskquantity .diskSize{
+        margin-top: 0;
+      }
+    }
+    .raidresult {
+      width: 50%;
+      height: 577px;
+      background-color: #0684bd;
+      padding: 30px 35px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.about__title{
+    padding: 40px 0 0 0;
+    h1 {
+        font-family: RFRufo-Semibold;
+        font-size: 48px;
+        line-height: 1;
+        font-weight: 400;
+        text-transform: uppercase;
+        width: 59%;
+        
+    }
+    span{
+        line-height: 0.83;
+        color: #ff9000;
+        text-transform: none;
+        margin-top: 7px;
+        font-size: 45px;
+    }
+}
+
+.about__advatages {
+    margin-top: 30px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    background-color: #0684bd;
+    border-radius: 3px;
+    padding: 22px 22px ;
+    .advatage__card{
+        background-color: #fff;
+        border-radius: 3px;
+        width: calc(33.3333% - 15px);
+        padding: 23px 25px 28px 25px;
+        display: flex;
+        column-gap: 15px;
+        align-items: center;
+        font-family: RFRufo-Semibold;
+        font-size: 24px;
+        line-height: 1;
+        span{
+            color: #ff9000;
+        }
+    }
+}

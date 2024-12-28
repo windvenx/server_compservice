@@ -1,0 +1,55 @@
+.blog{
+    padding: 80px 0;
+    background: white;
+    .blog__cards{
+        display: flex;
+        justify-content: space-between;
+        .card:hover {
+            background-color: rgba(0, 0, 0, 0);  /* Убираем затемнение при наведении */
+            transform: scale(1.05);  /* Немного увеличиваем карточку */
+          }
+          
+        .blog__card{
+            position: relative;
+            background: url(../../../../public/images.jpeg) center/contain no-repeat;  /* Фоновое изображение */
+            background-color: rgba(0, 0, 0, 0.5);  /* Начальная затемненность */
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.3s ease; 
+
+            width: 336px;
+            height: 440px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 15px;
+            color: white;
+            padding: 20px 25px ;
+            opacity: 0.7;
+            background: url(../../../../public/images.jpeg)center/contain no-repeat;
+            .card-content {
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.5);  /* Легкий фон для текста */
+                padding: 10px;
+                border-radius: 5px;
+                z-index: 2;
+              }
+            .blog__date{
+                line-height: 2;
+                color: rgba(255, 255, 255, 0.8);
+                text-transform: uppercase;
+            }
+            h3{
+                line-height: 1.2;
+                font-size: 24px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+            p{
+                line-height: 1.5;
+            }
+        }
+    }
+}

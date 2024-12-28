@@ -1,0 +1,16 @@
+.blog{
+    padding: 80px 0;
+    background: white;
+    .blog__cards{
+        display: flex;
+        justify-content: space-between;
+        .blog__card{
+            width: 336px;
+            height: 440px;
+            display: flex;
+            flex-direction: column;
+            jus
+            background: url(../../../../public/images.jpeg)center/contain no-repeat;
+        }
+    }
+}

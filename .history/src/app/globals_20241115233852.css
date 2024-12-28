@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  .container{
+    width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .header__wrapper{
+    display: flex;
+    column-gap: 50px;
+  }
+
+  .configutator_block{
+    width: 100%;
+    padding: 22px 30px 15px;
+    background-color: white;
+  }
+
+  body{
+    background-color: #f4f6f8;
+  }
+
+.swiper-container {
+  display: flex;
+}
+
+.swiper-slide  {
+  display: flex;  
+}

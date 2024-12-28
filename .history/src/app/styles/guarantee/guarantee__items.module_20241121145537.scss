@@ -1,0 +1,70 @@
+.guarantee__top{
+    padding: 50px 0;
+    .guarantee__title{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding-bottom: 40px;
+        h1{
+            font-size: 48px;
+            line-height: 1;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 18px;
+            color: #606060;
+        }
+    }
+}
+
+.guarantee__items{
+    .three__whales{
+        background-color: white;
+        padding: 40px 0;
+        display: flex;
+        .reasons{
+            display: flex;
+            align-items: flex-end;
+            column-gap: 20px;
+            width: 24%;
+            span{
+                font-family: RFRufo-Black;
+                font-size: 72px;
+                line-height: 0.8;
+                color: #0684bd;
+            }
+            .reasons__right{
+                h4{
+                    font-family: RFRufo-Semibold;
+                    font-size: 24px;
+                    line-height: 1;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+                span{
+                    font-family: RFRufo-Semibold;
+                    font-size: 24px;
+                    line-height: 1;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .three__whales__cards{
+            display: flex;
+            .three__whales__card{
+                width: 33%;
+                padding: 0 15px;
+                display: flex;
+                align-items: center;
+                p{
+                    display: block;
+                    font-family: RFRufo-Semibold;
+                    color: #ff9000;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

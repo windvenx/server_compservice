@@ -1,0 +1,55 @@
+.configutator_block{
+    background-color: white;
+    padding: 22px 30px 15px 30px;
+    display: flex;
+    column-gap: 20px;
+    border-radius: 10px;
+    .proc_block__right{
+      width: 100%;
+      display: flex;
+      justify-content: start;
+      column-gap: 100px;
+      .select{
+        width: 200px;
+        height: 40px;
+        border: none;
+        padding: 5px ;
+      }
+      .models{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        h3{
+          font-size: 25px;
+        }
+        label{
+          font-size: 20px;
+        }
+      }
+      .proc_block__right__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+    }
+    .configutator_block__right{
+        width: 100%;
+      }
+    h4{
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    .brand{
+        display: flex;
+        column-gap: 20px;
+        .brand__inp{
+            display: flex; 
+            flex-direction: column; 
+            row-gap: 10px;
+            align-items: center;
+        }
+    }
+    
+}

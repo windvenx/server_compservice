@@ -1,0 +1,27 @@
+
+.breadcrumbs{
+    margin-top: 15px;
+    nav ul {
+        display: flex;
+        gap: 10px;
+        font-size: 14px;
+        color: #606060;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav ul li a {
+        color: #0684bd;
+        text-decoration: none;
+      }
+      
+      nav ul li span {
+        color: #000; 
+      }
+      
+      .breadcrumbs__home{
+        color: #000;
+        text-decoration: none;
+      }
+      
+}
