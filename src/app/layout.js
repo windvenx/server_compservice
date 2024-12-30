@@ -13,6 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <div id="modal"></div>
+
         <Header />
         <div className="container">
           <Breadcrumbs />

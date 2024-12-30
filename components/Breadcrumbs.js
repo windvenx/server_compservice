@@ -27,6 +27,8 @@ const Breadcrumbs = () => {
         return "Контакты";
     }else if (path === "configuration") {
         return "Конфигурация";
+    }else if (path === "Leasing") {
+      return "Калькулятор Raid";
     }
     return path; 
   };

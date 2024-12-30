@@ -12,11 +12,11 @@
   }
   .leasing__block {
     display: flex;
+    margin-bottom: 80px;
     .raidcalc {
       width: 50%;
-      height: 577px;
       background-color: white;
-      padding: 30px 35px;
+      padding: 30px 35px 60px ;
       display: flex;
       flex-direction: column;
       row-gap: 40px;
@@ -101,9 +101,35 @@
     }
     .raidresult {
       width: 50%;
-      height: 577px;
+      color: white;
       background-color: #0684bd;
       padding: 30px 35px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      h4{
+        font-family: RFRufo-Semibold;
+        font-size: 26px;
+        line-height: 1;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+      p{
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      
+      .raid__res__item{
+        display: flex;
+        justify-content: space-between;
+      }
+      .raid__res__left{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+      }
     }
   }
 }

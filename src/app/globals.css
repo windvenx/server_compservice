@@ -24,15 +24,7 @@
   body{
     background-color: #f4f6f8;
   }
-
-.LinkAll{
-  color: white;
-  text-decoration: none;
-}
-.LinkAll:hover{
-  color: #dadada;
-  transition: 0.5s;
-}
+  
 
 .swiper-slide{
   width: 300px;

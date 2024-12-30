@@ -13,6 +13,8 @@ const DiskCapasity = () => {
   const handleRaidLevelChange = (level) => {
     setRaidLevel(level);
 
+    
+
     // if (level === "0") {
     //   setDiskCount(2);
     //   setraidType("RAID 0 — массив дисков с чередованием.");

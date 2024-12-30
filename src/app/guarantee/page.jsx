@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../styles/guarantee/guarantee__items.module.scss'
 import GuaranteeItems from './guaranteeItems';
 import GuaranteeStages from './guaranteeStages';
+import Tset from './tset'
 
 const Page = () => {
     return (
@@ -13,6 +14,7 @@ const Page = () => {
             </div>
             <GuaranteeItems/>
             <GuaranteeStages/>
+            <Tset/>
           </div>  
         </section>
     );

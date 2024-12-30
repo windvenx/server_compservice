@@ -25,7 +25,7 @@ export default function Map() {
   const [position, setPosition] = useState([42.8806, 74.6578]);
   const [zoom, setZoom] = useState(16);
   const address = 'улица Лермонтова 12, Бишкек, Кыргызстан'; 
-  const mapRef = useRef(null);  // Ref to store map container
+  const mapRef = useRef(null);  
 
   useEffect(() => {
     const fetchCoordinates = async () => {
@@ -51,7 +51,7 @@ export default function Map() {
       center={position} 
       zoom={zoom} 
       style={{ height: '400px', width: '100%' }} 
-      whenCreated={(map) => { mapRef.current = map; }} // Store map reference
+      whenCreated={(map) => { mapRef.current = map; }} 
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

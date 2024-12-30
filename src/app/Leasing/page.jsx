@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Leasing.module.scss'
 import RaidCalc from './RaidCalc/page'
 import RaidResult from './RaidResult'
+import SwiperProduct from '../Home/SwiperProducts'
 
 const Leasing = () => {
   return (
@@ -12,6 +13,7 @@ const Leasing = () => {
                 <RaidCalc/>
                 <RaidResult/>
             </div>
+            <SwiperProduct/>
         </div>
     </section>
   )

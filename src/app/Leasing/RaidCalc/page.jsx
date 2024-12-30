@@ -5,7 +5,7 @@ import styles from "../../styles/Leasing.module.scss";
 import RaidLevel from "./RaidLevel";
 import DiskCapasity from "./DiskCapasity";
 
-const page = () => {
+const RaidCalc = () => {
   return (
     <div className={styles.raidcalc}>
       <RaidLevel />
@@ -16,10 +16,11 @@ const page = () => {
         <div className={`${styles.diskSize} ${styles.diskquantity}`}>
           <p>11 ШТ.</p>
           <input type="range" />
+          <p></p>
         </div>
       </div>
     </div>
   );
 };
 
-export default page;
+export default RaidCalc;

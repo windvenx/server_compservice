@@ -64,6 +64,8 @@ const RaidCalc = () => {
       </div>
       <span>{raidType}</span>
     </div>
+
+    
   );
 };
 
