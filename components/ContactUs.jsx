@@ -8,7 +8,6 @@ import messageIcon from "../public/blue-chat-message.svg";
 const MyComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Состояние для данных формы
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -19,7 +18,6 @@ const MyComponent = () => {
   const openModal = () => setIsOpen(true);
   const closeModal = () => setIsOpen(false);
 
-  // Обработчик изменения инпутов
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -28,14 +26,11 @@ const MyComponent = () => {
     }));
   };
 
-  // Обработчик отправки формы
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Здесь отправляем данные на бэкенд
     console.log("Отправляем данные:", formData);
 
-    // После успешной отправки можно закрыть модалку
     closeModal();
   };
 
